@@ -1,3 +1,25 @@
 <template>
-  <h1>${message}</h1>
+  <div show.bind="isWelcomeVisible">
+      <img src='./src/resources/images/STEMbienvenida.jpg'/>
+      <h1>${initialMessage}</h1>
+      <button click.delegate = "startGame()">Jugar</button>
+  </div>
+
+  <div show.bind = "isGameVisible">
+      <h2>${currentQuestion.category}</h2>
+      <h4>${currentQuestion.text}</h4>
+        <label repeat.for="answer of currentQuestion.answers">
+          <input type="radio" name="group2"
+                 model.bind="answer" checked.bind="currentQuestion.selectedAnswer">
+          ${answer.text}
+        </label>
+        <button click.delegate = "nextQuestion()">Jugar</button>
+  </div>
+
+  <div show.bind="isResultVisible">
+      <h1>${result.category}</h1>
+      <p>${result.explanation}</p>
+  </div>
+ 
+  
 </template>
