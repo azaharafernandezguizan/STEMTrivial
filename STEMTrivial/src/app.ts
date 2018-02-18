@@ -5,7 +5,7 @@ export class App {
   isWelcomeVisible = true;
   isGameVisible = false;
   isResultVisible = false;
-  //TODO: cambiar esto por una conexión a un json
+  //TODO: cambiar el array por una conexión a un json
   questions = [
           {category: "Science", 
             text: "¿Quién descubrió la estructura del DNA?",
@@ -53,7 +53,8 @@ export class App {
 
   constructor(){
     this.changeVisibility("Welcome");
-    this.initialMessage = 'Bienvenido a STEM Trivial! ¿Dispuesto a conocer tu nivel de conocimiento sobre las mujeres en las STEM?';
+    this.initialMessage = 'Bienvenido a STEM Trivial!' +
+    '¿Dispuesto a conocer tu nivel de conocimiento sobre las mujeres en las STEM?';
     
   }
   
