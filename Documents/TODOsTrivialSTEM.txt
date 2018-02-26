@@ -1,0 +1,13 @@
+TODOs:
+
+Cambiar la lista de preguntas por la lectura desde un fichero
+
+Complementar la documentación
+
+CSS
+
+Aumentar las preguntas
+
+Mensaje final mejorado
+
+Botón volver a jugar
