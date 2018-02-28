@@ -1,4 +1,4 @@
-
+//import * as myJson from '../json/questions.json!json';
 
 export class App {
   initialMessage = "";
@@ -15,7 +15,8 @@ export class App {
               { id: 2, text: 'Rita Levi Montalcini' }
             ],
             selectedAnswer : null,
-            correctAnswerId : 0
+            correctAnswerId : 0,
+            cssQuestionTextColor:"green"
           },
           {category: "Technology", 
             text: "¿Quién es la CEO de Facebook Iberia en 2018?",
@@ -59,6 +60,7 @@ export class App {
     this.changeVisibility("Welcome");
     this.initialMessage = 'Bienvenido a STEM Trivial!' +
     '¿Dispuesto a conocer tu nivel de conocimiento sobre las mujeres en las STEM?';
+
     
   }
   
@@ -124,3 +126,6 @@ export class App {
     }
   
 }
+
+
+

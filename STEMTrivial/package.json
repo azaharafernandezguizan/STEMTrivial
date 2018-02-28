@@ -48,5 +48,16 @@
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-notify": "^2.2.0",
     "gulp-watch": "^4.3.11"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "json"
+    },
+    "dependencies": {
+      "json": "github:systemjs/plugin-json@^0.3.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
   }
 }

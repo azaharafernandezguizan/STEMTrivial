@@ -1,0 +1,13 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "json"
+    },
+    "dependencies": {
+      "json": "github:systemjs/plugin-json@^0.3.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
