@@ -2,10 +2,13 @@
 
 Aumentar las preguntas
 
+
 Mensaje final mejorado
 
 Botón volver a jugar
 
+
 Complementar documentación
+
 
 Routing
