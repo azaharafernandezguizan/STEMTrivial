@@ -24,7 +24,7 @@
         "name": "app-bundle.js",
         "source": [
           "[**/*.js]",
-          "**/*.{css,html}"
+          "**/*.{css,html,json}"
         ]
       },
       {
@@ -92,7 +92,8 @@
           "name": "text",
           "extensions": [
             ".html",
-            ".css"
+            ".css",
+            ".json"
           ],
           "stub": true
         }
@@ -139,6 +140,7 @@
   "paths": {
     "root": "src",
     "resources": "resources",
+    "data": "resources/data",
     "elements": "resources/elements",
     "attributes": "resources/attributes",
     "valueConverters": "resources/value-converters",

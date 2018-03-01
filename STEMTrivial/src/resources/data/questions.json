@@ -1,0 +1,68 @@
+{
+    "questionList": [
+        {"category": "Science", 
+            "text": "¿Quién descubrió la estructura del DNA?",
+            "answers" : [
+                { 
+                    "id": "0", "text": "Rosalind Franklin"
+                },
+                { 
+                    "id": "1", "text": "Marie Curie"
+                },
+                { 
+                    "id": "2", "text": "Rita Levi Montalcini"
+                }
+            ],
+            "selectedAnswer" : "null",
+            "correctAnswerid" : "0"
+        },
+        {"category": "Technology", 
+            "text": "¿Quién es la CEO de Facebook Iberia en 2018?",
+            "answers" : [
+                { 
+                    "id": "0", "text": "Marta Ríos"
+                },
+                { 
+                    "id": "1", "text": "Irene Cano"
+                },
+                { 
+                    "id": "2", "text": "Arancha Torres"
+                }
+            ],
+            "selectedAnswer" : "null",
+            "correctAnswerid" : "1"
+        },
+        {"category": "Maths", 
+            "text": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
+            "answers" : [
+                { 
+                    "id": "0", "text": "María G. Agnesi"
+                },
+                {
+                     "id": "1", "text": "Hipatía de Alejandría"
+                },
+                { 
+                    "id": "2", "text": "Sophie Germain"
+                }
+            ],
+            "selectedAnswer" : "null",
+            "correctAnswerid" : "0"
+        },
+        {"category": "Engineering", 
+          "text": "¿Quien fue la primera mujer diplomada como Ingeniera en América del Sur?",
+          "answers" : [
+                { 
+                    "id": "0", "text": "Carmen de Andrés"
+                },
+                { 
+                    "id": "1", "text": "Pino Pliego"
+                },
+                { 
+                    "id": "2", "text": "Elisa Bachofen"
+                }
+            ],
+          "selectedAnswer" : "null",
+          "correctAnswerid" : "2"
+        }
+    ]
+}
