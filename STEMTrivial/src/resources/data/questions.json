@@ -14,7 +14,7 @@
                 }
             ],
             "selectedAnswer" : "null",
-            "correctAnswerid" : "0"
+            "correctAnswerId" : "0"
         },
         {"category": "Technology", 
             "text": "¿Quién es la CEO de Facebook Iberia en 2018?",
@@ -30,7 +30,7 @@
                 }
             ],
             "selectedAnswer" : "null",
-            "correctAnswerid" : "1"
+            "correctAnswerId" : "1"
         },
         {"category": "Maths", 
             "text": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
@@ -46,7 +46,7 @@
                 }
             ],
             "selectedAnswer" : "null",
-            "correctAnswerid" : "0"
+            "correctAnswerId" : "2"
         },
         {"category": "Engineering", 
           "text": "¿Quien fue la primera mujer diplomada como Ingeniera en América del Sur?",
@@ -62,7 +62,7 @@
                 }
             ],
           "selectedAnswer" : "null",
-          "correctAnswerid" : "2"
+          "correctAnswerId" : "2"
         }
     ]
 }

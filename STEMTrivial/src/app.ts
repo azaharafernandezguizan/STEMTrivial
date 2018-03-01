@@ -38,7 +38,6 @@ export class App {
 
   nextQuestion() {
     this.indexCurrentQuestion++;
-
     if (this.currentQuestion.selectedAnswer.id == this.currentQuestion.correctAnswerId) {
       this.result.points++;
     }

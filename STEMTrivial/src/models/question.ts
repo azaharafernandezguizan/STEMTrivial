@@ -5,13 +5,14 @@ export class Question {
     text: string;
     answers: Answer[];
     selectedAnswer: string;
-    correctAnswerid: string;
+    correctAnswerId: string;
 
-    constructor(category: string, text: string, answers: Answer[], selectedAnswer: string, correctAnswerid: string) {
+    constructor(category: string, text: string, answers: Answer[], selectedAnswer: string, 
+        correctAnswerId: string) {
         this.category = category;
         this.text = text;
         this.answers = answers;
         this.selectedAnswer = selectedAnswer;
-        this.correctAnswerid = correctAnswerid;
+        this.correctAnswerId = correctAnswerId;
     }
 }

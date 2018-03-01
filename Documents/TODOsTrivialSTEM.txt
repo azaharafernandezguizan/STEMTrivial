@@ -1,7 +1,5 @@
 ﻿TODOs:
 
-Cambiar la lista de preguntas por la lectura desde un fichero
-
 Aumentar las preguntas
 
 Mensaje final mejorado
