@@ -28,7 +28,7 @@ export class App {
   }
 
   initGame(questions) {
-    this.questions =  this.questionService.getRandomQuestions(questions.questionList);
+    this.questions =  this.questionService.getRandomQuestions(questions.questionList, 16, 8);
     this.changeVisibility("Game");
     if (this.questions != null && this.questions.length != 0) {
       this.currentQuestion = this.questions[0];

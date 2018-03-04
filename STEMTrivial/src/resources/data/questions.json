@@ -41,7 +41,7 @@
             "correctAnswerId": "1"
         },
         {
-            "category": "Matematicas",
+            "category": "Matemáticas",
             "text": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
             "answers": [
                 {
@@ -90,7 +90,7 @@
                 },
                 {
                     "id": "1",
-                    "text": "Por entender la conexión entre las orugas y las mariposas."
+                    "text": "Por analizar, entender y describir la metamorfosis."
                 },
                 {
                     "id": "2",
@@ -101,8 +101,8 @@
             "correctAnswerId": "1"
         },
         {
-            "category": "Matematicas",
-            "text": "¿Qué libro publico a los 24 años Wang Zhenyi?",
+            "category": "Matemáticas",
+            "text": "¿Qué libro publicó a los 24 años Wang Zhenyi?",
             "answers": [
                 {
                     "id": "0",
@@ -126,7 +126,7 @@
             "answers": [
                 {
                     "id": "0",
-                    "text": "Las disposiciones ergonomicas de los escritorios."
+                    "text": "Las disposiciones ergonómicas de los escritorios."
                 },
                 {
                     "id": "1",
@@ -141,8 +141,8 @@
             "correctAnswerId": "0"
         },
         {
-            "category": "Matematicas",
-            "text": "¿Quien dijo de Emmy Noether que era el genio matematico más significativo?",
+            "category": "Matemáticas",
+            "text": "¿Quién dijo de Emmy Noether que era el genio matemático más significativo?",
             "answers": [
                 {
                     "id": "0",
@@ -162,7 +162,7 @@
         },
         {
             "category": "Ingeniería",
-            "text": "¿Quién fué la primera mujer en graduarse en MIT?",
+            "text": "¿Quién fue la primera mujer en graduarse en el MIT?",
             "answers": [
                 {
                     "id": "0",
@@ -182,7 +182,7 @@
         },
         {
             "category": "Ciencia",
-            "text": "¿Quién descubrio la cura para la Lepra?",
+            "text": "¿Quién descubrió la cura para la Lepra?",
             "answers": [
                 {
                     "id": "0",
@@ -202,11 +202,11 @@
         },
         {
             "category": "Ciencia",
-            "text": "¿Qué descubrio Cecilia Payne-Gaposchkin?",
+            "text": "¿Qué descubrió Cecilia Payne-Gaposchkin?",
             "answers": [
                 {
                     "id": "0",
-                    "text": "La tierra gira alrededor del sol."
+                    "text": "El movimiento gravitacional."
                 },
                 {
                     "id": "1",
@@ -214,15 +214,15 @@
                 },
                 {
                     "id": "2",
-                    "text": "El sol esta compuesto de Hidrogeno y Helio."
+                    "text": "Que el sol está compuesto de Hidrógeno y Helio."
                 }
             ],
             "selectedAnswer": "null",
             "correctAnswerId": "2"
         },
         {
-            "category": "Ingeniería",
-            "text": "¿Qué lenguaje de programación creo Grace Hooper?",
+            "category": "Tecnología",
+            "text": "¿Qué lenguaje de programación creó Grace Hooper?",
             "answers": [
                 {
                     "id": "0",
@@ -242,7 +242,7 @@
         },
         {
             "category": "Ciencia",
-            "text": "¿Quién recinio en 1986 el premio Nobel en fisiología por descubrir el factor de crecimiento Neuronal?",
+            "text": "¿Quién recibó en 1986 el premio Nobel en Fisiología por descubrir el factor de crecimiento neuronal?",
             "answers": [
                 {
                     "id": "0",
@@ -261,7 +261,7 @@
             "correctAnswerId": "0"
         },
         {
-            "category": "Matematicas",
+            "category": "Matemáticas",
             "text": "¿Qué famoso trabajo hizo en la NASA Katherine Johnson?",
             "answers": [
                 {
@@ -281,7 +281,7 @@
             "correctAnswerId": "2"
         },
         {
-            "category": "Matematicas",
+            "category": "Matemáticas",
             "text": "¿Quién contribuyo al entendimiento de las figuras curvas y de las superficies?",
             "answers": [
                 {
@@ -302,7 +302,7 @@
         },
         {
             "category": "Ingeniería",
-            "text": "¿quién fué Valentina Tereshkova?",
+            "text": "¿Quién fué Valentina Tereshkova?",
             "answers": [
                 {
                     "id": "0",

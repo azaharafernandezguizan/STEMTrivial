@@ -19,20 +19,20 @@ export class QuestionService {
       xobj.send(null);  
    }
 
-   getRandomQuestions(questions): Question[]{
+   getRandomQuestions(questions, totalNumberOfQuestions, amountQuestionsSelected): Question[]{
       let resultArrayQuestions = [];
       let choosedNumbers = [];
       let count = 0;
 
       do{
-        let actualNumber = Math.floor((Math.random() * 16));
+        let actualNumber = Math.floor((Math.random() * totalNumberOfQuestions));
 
         if(choosedNumbers.indexOf(actualNumber) == -1){
            choosedNumbers.push(actualNumber);
            resultArrayQuestions.push(questions[actualNumber]);
            count++;
         }
-      }while(count < 8)
+      }while(count < amountQuestionsSelected)
       
       return resultArrayQuestions;
    }

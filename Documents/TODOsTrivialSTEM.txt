@@ -1,14 +1,6 @@
 ﻿TODOs:
 
-Aumentar las preguntas
-
-
-Mensaje final mejorado
-
-Botón volver a jugar
-
-
 Complementar documentación
 
+Aplicación en Angular.js
 
-Routing
