@@ -8,10 +8,10 @@ div{
 button{
     background-color: #ffe6e6;
     border-radius: 5px;
+    margin: auto;
     margin-bottom: 2%;
     margin-top: 4%;
-    margin-left:48%;
-    width: 8%;
+    width: auto;
     font-weight: bold;
     font-size: 1.2em;
     display: block;
@@ -25,7 +25,7 @@ img{
     margin-bottom: 2%;
 }
 
-.welcomeDiv{
+.{
     margin-top: 3%;
 }
 
@@ -57,4 +57,7 @@ img{
     border: solid;
     border-radius: 5px;
 }
-
+.medallas{
+    float: left;
+    width: 106px;
+}

@@ -11,7 +11,7 @@ export class App {
   questions = Array<Question>();
   currentQuestion = null;
   indexCurrentQuestion = 0;
-  result = { category: "", explanation: "", points: 0 };
+  result = { category: "", explanation: "", points: 0, urlImage: "" };
   questionService: QuestionService;
 
   constructor() {
@@ -28,7 +28,7 @@ export class App {
   }
 
   initGame(questions) {
-    this.questions = questions.questionList;
+    this.questions =  this.questionService.getRandomQuestions(questions.questionList);
     this.changeVisibility("Game");
     if (this.questions != null && this.questions.length != 0) {
       this.currentQuestion = this.questions[0];
@@ -73,22 +73,32 @@ export class App {
 
   fillResultText() {
     var questionsCount = this.questions.length;
-    debugger;
+
     if (this.result.points >= (questionsCount * 0.9)) {
       this.result.category = "Gold";
       this.result.explanation = "Has acertado " + this.result.points + ", medalla de oro, enhorabuena!";
+      this.result.urlImage = "./src/resources/images/oro.jpg";
     } else if (this.result.points >= (questionsCount * 0.7)) {
       this.result.category = "Silver";
       this.result.explanation = "Has acertado " + this.result.points + ", medalla de plata!";
+      this.result.urlImage = "./src/resources/images/plata.jpg";
     } else if (this.result.points >= (questionsCount * 0.5)) {
       this.result.category = "Bronce";
-      this.result.explanation = "Has acertado " + this.result.points + ", medalla de bronce!"
+      this.result.explanation = "Has acertado " + this.result.points + ", medalla de bronce!";
+      this.result.urlImage = "./src/resources/images/bronce.jpg";
     } else {
       this.result.category = "No ha habido suerte";
-      this.result.explanation = "Prueba suerte la próxima vez!"
+      this.result.explanation = "Prueba suerte la próxima vez!";
+      this.result.urlImage = "./src/resources/images/loser.png";
     }
   }
 
+  playAgain(){
+    this.currentQuestion = null;
+    this.indexCurrentQuestion = 0;
+    this.result = { category: "", explanation: "", points: 0,urlImage: "" };
+    this.startGame();
+  }
 }
 
 

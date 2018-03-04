@@ -19,8 +19,10 @@
   </div>
 
   <div show.bind="isResultVisible" class="resultDiv">
+      <img alt="imagen resultado final" src=${result.urlImage} class="medallas"/>
       <h1>${result.category}</h1>
-      <h2>${result.explanation}</p>
+      <h2>${result.explanation}</h2>
+      <button click.delegate = "playAgain()">Volver a Jugar</button>
   </div>
  
   

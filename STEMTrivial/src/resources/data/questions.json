@@ -1,68 +1,324 @@
 {
     "questionList": [
-        {"category": "Science", 
+        {
+            "category": "Ciencias",
             "text": "¿Quién descubrió la estructura del DNA?",
-            "answers" : [
-                { 
-                    "id": "0", "text": "Rosalind Franklin"
-                },
-                { 
-                    "id": "1", "text": "Marie Curie"
-                },
-                { 
-                    "id": "2", "text": "Rita Levi Montalcini"
-                }
-            ],
-            "selectedAnswer" : "null",
-            "correctAnswerId" : "0"
-        },
-        {"category": "Technology", 
-            "text": "¿Quién es la CEO de Facebook Iberia en 2018?",
-            "answers" : [
-                { 
-                    "id": "0", "text": "Marta Ríos"
-                },
-                { 
-                    "id": "1", "text": "Irene Cano"
-                },
-                { 
-                    "id": "2", "text": "Arancha Torres"
-                }
-            ],
-            "selectedAnswer" : "null",
-            "correctAnswerId" : "1"
-        },
-        {"category": "Maths", 
-            "text": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
-            "answers" : [
-                { 
-                    "id": "0", "text": "María G. Agnesi"
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Rosalind Franklin"
                 },
                 {
-                     "id": "1", "text": "Hipatía de Alejandría"
+                    "id": "1",
+                    "text": "Marie Curie"
                 },
-                { 
-                    "id": "2", "text": "Sophie Germain"
+                {
+                    "id": "2",
+                    "text": "Rita Levi Montalcini"
                 }
             ],
-            "selectedAnswer" : "null",
-            "correctAnswerId" : "2"
+            "selectedAnswer": "null",
+            "correctAnswerId": "0"
         },
-        {"category": "Engineering", 
-          "text": "¿Quien fue la primera mujer diplomada como Ingeniera en América del Sur?",
-          "answers" : [
-                { 
-                    "id": "0", "text": "Carmen de Andrés"
+        {
+            "category": "Tecnología",
+            "text": "¿Quién es la CEO de Facebook Iberia en 2018?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Marta Ríos"
                 },
-                { 
-                    "id": "1", "text": "Pino Pliego"
+                {
+                    "id": "1",
+                    "text": "Irene Cano"
                 },
-                { 
-                    "id": "2", "text": "Elisa Bachofen"
+                {
+                    "id": "2",
+                    "text": "Arancha Torres"
                 }
             ],
-          "selectedAnswer" : "null",
-          "correctAnswerId" : "2"
+            "selectedAnswer": "null",
+            "correctAnswerId": "1"
+        },
+        {
+            "category": "Matematicas",
+            "text": "¿Quien fue la primera mujer en ocupar una cátedra de matemáticas?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "María G. Agnesi"
+                },
+                {
+                    "id": "1",
+                    "text": "Hipatía de Alejandría"
+                },
+                {
+                    "id": "2",
+                    "text": "Sophie Germain"
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Ingeniería",
+            "text": "¿Quien fue la primera mujer diplomada como Ingeniera en América del Sur?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Carmen de Andrés"
+                },
+                {
+                    "id": "1",
+                    "text": "Pino Pliego"
+                },
+                {
+                    "id": "2",
+                    "text": "Elisa Bachofen"
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Ciencia",
+            "text": "¿Por qué es famosa María Sibylla Merian?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Por haber dibujado la primera vez insectos."
+                },
+                {
+                    "id": "1",
+                    "text": "Por entender la conexión entre las orugas y las mariposas."
+                },
+                {
+                    "id": "2",
+                    "text": "Por descubrir una nueva especie de insecto."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "1"
+        },
+        {
+            "category": "Matematicas",
+            "text": "¿Qué libro publico a los 24 años Wang Zhenyi?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Como entender los eclipses."
+                },
+                {
+                    "id": "1",
+                    "text": "Principios de algebra."
+                },
+                {
+                    "id": "2",
+                    "text": "Principios simples de calculo."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Ingeniería",
+            "text": "¿Qué le debemos a Lillian Gilbreth?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Las disposiciones ergonomicas de los escritorios."
+                },
+                {
+                    "id": "1",
+                    "text": "El lavavajillas."
+                },
+                {
+                    "id": "2",
+                    "text": "El protocolo de desinfección."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "0"
+        },
+        {
+            "category": "Matematicas",
+            "text": "¿Quien dijo de Emmy Noether que era el genio matematico más significativo?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Max Noether."
+                },
+                {
+                    "id": "1",
+                    "text": "Albert Einstein."
+                },
+                {
+                    "id": "2",
+                    "text": "Stephen Hawking."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "1"
+        },
+        {
+            "category": "Ingeniería",
+            "text": "¿Quién fué la primera mujer en graduarse en MIT?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Lise Meitner."
+                },
+                {
+                    "id": "1",
+                    "text": "Mary Agnes Chase."
+                },
+                {
+                    "id": "2",
+                    "text": "Edith Clarke."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Ciencia",
+            "text": "¿Quién descubrio la cura para la Lepra?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Maria Encinar."
+                },
+                {
+                    "id": "1",
+                    "text": "Alice Ball."
+                },
+                {
+                    "id": "2",
+                    "text": "Mary Anning."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "1"
+        },
+        {
+            "category": "Ciencia",
+            "text": "¿Qué descubrio Cecilia Payne-Gaposchkin?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "La tierra gira alrededor del sol."
+                },
+                {
+                    "id": "1",
+                    "text": "El origen de las estrellas."
+                },
+                {
+                    "id": "2",
+                    "text": "El sol esta compuesto de Hidrogeno y Helio."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Ingeniería",
+            "text": "¿Qué lenguaje de programación creo Grace Hooper?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Cobol"
+                },
+                {
+                    "id": "1",
+                    "text": "Fortran"
+                },
+                {
+                    "id": "2",
+                    "text": "C"
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "0"
+        },
+        {
+            "category": "Ciencia",
+            "text": "¿Quién recinio en 1986 el premio Nobel en fisiología por descubrir el factor de crecimiento Neuronal?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Rita Levi Montalcini."
+                },
+                {
+                    "id": "1",
+                    "text": "Aurora Barrero."
+                },
+                {
+                    "id": "2",
+                    "text": "Rosalind Franklin."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "0"
+        },
+        {
+            "category": "Matematicas",
+            "text": "¿Qué famoso trabajo hizo en la NASA Katherine Johnson?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Fué una de las primeras programadoras."
+                },
+                {
+                    "id": "1",
+                    "text": "Dirigir un departamento."
+                },
+                {
+                    "id": "2",
+                    "text": "Los calculos para la misión Apolo."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "2"
+        },
+        {
+            "category": "Matematicas",
+            "text": "¿Quién contribuyo al entendimiento de las figuras curvas y de las superficies?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Maryam Mirzakhani"
+                },
+                {
+                    "id": "1",
+                    "text": "Annie Easley"
+                },
+                {
+                    "id": "2",
+                    "text": "Jane Goodall"
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "0"
+        },
+        {
+            "category": "Ingeniería",
+            "text": "¿quién fué Valentina Tereshkova?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "La primera mujer en crear un cohete."
+                },
+                {
+                    "id": "1",
+                    "text": "La primera mujer en el espacio."
+                },
+                {
+                    "id": "2",
+                    "text": "La primera mujer en la NASA."
+                }
+            ],
+            "selectedAnswer": "null",
+            "correctAnswerId": "1"
         }
     ]
 }
