@@ -3,9 +3,6 @@ import { inject, NewInstance } from 'aurelia-framework';
 
 @inject(NewInstance.of(Question))
 export class QuestionService {
-    constructor() {
-    }
-
     async getQuestions(objectApp,callback) {
       const response: Response = await fetch('./src/resources/data/questions.json');
       const json = await response.json();
