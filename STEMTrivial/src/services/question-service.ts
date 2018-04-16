@@ -20,7 +20,7 @@ export class QuestionService {
       do{
         let actualNumber = Math.floor((Math.random() * totalNumberOfQuestions));
 
-        if(choosedNumbers.indexOf(actualNumber) == -1){
+        if(choosedNumbers.indexOf(actualNumber) === -1){
            choosedNumbers.push(actualNumber);
            resultArrayQuestions.push(questions[actualNumber]);
            count++;
