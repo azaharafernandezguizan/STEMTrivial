@@ -1,6 +1,0 @@
-﻿TODOs:
-
-Complementar documentación
-
-Aplicación en Angular.js
-
